@@ -1,4 +1,4 @@
-package com.example.yajunbai.mcalc;
+package com.example.superman.mcalc;
 
 public class MortgageModel {
     private double principle;
