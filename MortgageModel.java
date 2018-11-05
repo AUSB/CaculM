@@ -29,9 +29,9 @@ public class MortgageModel {
         int x = 5;
         double r = (this.interest / 100)/12;
         int n = this.amortization * 12;
-        double xX = x * 12;
+        double xA = x * 12;
         double payment = (this.principle * r)/ (1 -  1/ Math.pow((1 + r),n));
-        double outstandingbalance = this.principle-(payment / r - this.principle) * (Math.pow((1 + r ),xX) - 1);
+        double outstandingbalance = this.principle-(payment / r - this.principle) * (Math.pow((1 + r ),xA) - 1);
 //      System.out.println(outstandingbalance);
         String ret = String.format("$%,d", (int)(outstandingbalance));
         return ret;
