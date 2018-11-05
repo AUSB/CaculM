@@ -1,4 +1,4 @@
-package com.example.yajunbai.mcalc;
+package com.example.superman.mcalc;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
